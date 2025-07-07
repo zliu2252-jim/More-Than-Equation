@@ -55,7 +55,7 @@ public class App {
      * @param args Not used
      */
     public static void main(String[] args) {
-        TriangleNumberCalculator calculator = new TriangleNumberCalculator();
+        App calculator = new App();
         System.out.println(calculator.recursiveCalc(1));
         System.out.println(calculator.recursiveCalc(2));
         System.out.println(calculator.recursiveCalc(4));
